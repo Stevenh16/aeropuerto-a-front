@@ -1,0 +1,12 @@
+.airport-list {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row; /* Asegura que las publicaciones estén en fila */
+    margin: 15px 20px; /* Centra el contenedor en la página */
+    padding: 20px; /* Espaciado interno */
+    width: 100%; /* Asegura que el contenedor sea responsive */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

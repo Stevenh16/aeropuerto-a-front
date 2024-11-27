@@ -1,0 +1,34 @@
+.item-container {
+    background-color: #393434; /* Fondo claro */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 300px;
+    padding: 20px; /* Espaciado interno */
+    margin: 10px 15px; /* Espaciado externo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transiciones suaves */
+}
+
+.item-container:hover {
+    transform: translateY(-5px); /* Efecto hover: elevar */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Incrementar sombra al hover */
+    cursor: pointer;
+}
+
+.item-container h4,
+.item-container h5 {
+    margin: 5px 0; /* Reducir espacio entre los encabezados */
+    color: #fff; /* Color del texto */
+    font-weight: bold; /* Negrita */
+}
+
+.item-container p {
+    margin: 5px 0 10px; /* Espaciado entre párrafos */
+    color: #fff; /* Texto ligeramente más claro */
+    font-size: 1rem; /* Tamaño de fuente estándar */
+}
+
+.item-container h4 {
+    font-size: 1.2rem; /* Tamaño ligeramente mayor para el título */
+    color: #6961ef; /* Color distintivo para el encabezado principal */
+}

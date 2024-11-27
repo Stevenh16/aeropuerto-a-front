@@ -1,0 +1,48 @@
+.container-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+div header{
+    max-width: 1980px;
+    min-height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0px 16px;
+    background-color: #2c2b2b;
+}
+
+div header h1{
+    font-size: 28px;
+    color: #6961ef;
+    text-decoration: none;
+}
+
+div header ul{
+    display: flex;
+    list-style: none;
+    padding: 10px 5px;
+}
+
+div header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+div header nav ul li a:hover{
+    color: #6961ef;
+}
+
+div section h2 {
+    color: #2c2b2b;
+    margin: 15px 15px;
+}
